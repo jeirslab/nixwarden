@@ -1,0 +1,12 @@
+result
+result-*
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.direnv/
+.pytest_cache/
+
+# Never commit vault credentials. An admin file is committed only encrypted.
+.env
+*.yaml.plain
